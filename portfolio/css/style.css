@@ -1,0 +1,75 @@
+a, a:hover, a:focus{
+	text-decoration: none;
+	color: inherit;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+body{
+	min-width: 320px;
+}
+img{
+	max-width: 100%;
+}
+
+.header{
+	height: 100vh;
+	background-color: #18bc9c;
+	text-transform: uppercase;
+}
+.header_cover{
+	text-align: center;
+	padding-top: 170px;
+	color: #fff;
+}
+.header .navbar{
+	position: fixed;
+	width: 100%;
+}
+.header .image{
+	border-radius: 150px;
+	overflow: hidden;
+	width: 300px;
+	height: 100%;
+	margin: auto;
+	margin-top: -50px;
+}
+.header .image img{
+	object-fit: cover;
+	width: 100%;
+	/* object-position: 0px -5px; */
+}
+.header_cover .name{
+	text-transform: uppercase;
+	font-size: 80px;
+	margin: 20px 0;
+}
+.fa-star{
+	font-size: 30px;
+}
+.portfolio_star:after,
+.portfolio_star:before{
+	content: '';
+	display: block;
+	border-top: 3px solid #fff;
+	width: 100px;
+}
+.portfolio_star{
+	display: inline-flex;
+	align-items: center;
+}
+.portfolio_star i{
+	margin: 0 20px;
+}
+.header_cover .skills{
+	/*ttc*/
+	text-transform: capitalize;
+	font-size: 25px;
+}
+.section-content .card img{
+height: 300px;
+width: 100%
+border-radius: 30px;
+}
